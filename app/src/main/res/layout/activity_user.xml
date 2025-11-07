@@ -13,7 +13,7 @@
         android:background="@color/purple"
         />
 
-   
+
 
     <TextView
         android:id="@+id/TextView_Inicio"
@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="32dp"
-        android:text="Vamos Começar?"
+        android:text="@string/vamos_come_ar"
         android:textColor="@color/white"
         android:textSize="32sp"
         />
@@ -33,12 +33,12 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="32dp"
         android:layout_centerVertical="true"
-        android:hint="Qual o seu nome?"
+        android:hint="@string/qual_o_seu_nome"
         android:gravity="center"
         android:textColorHint="@color/white"
         android:textSize="28sp"
         android:textColor="@color/white"
-        />
+        tools:ignore="Autofill,TextFields" />
 
 
     <Button
@@ -48,7 +48,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="32dp"
-        android:text="Salvar"
+        android:text="@string/salvar"
         android:backgroundTint="@color/light_purple"
         />
 

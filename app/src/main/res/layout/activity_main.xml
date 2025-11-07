@@ -25,7 +25,8 @@
         android:layout_alignTop="@+id/Menu"
         android:layout_alignBottom="@+id/Menu"
         android:layout_marginStart="32dp"
-        app:tint="@color/white" />
+        app:tint="@color/white"
+        tools:ignore="ContentDescription" />
 
     <ImageView
         android:id="@+id/Image_Emote"
@@ -35,7 +36,8 @@
         android:layout_alignTop="@+id/Menu"
         android:layout_alignBottom="@+id/Menu"
         android:layout_centerHorizontal="true"
-         app:tint="@color/white" />
+         app:tint="@color/white"
+        tools:ignore="ContentDescription" />
 
     <ImageView
         android:id="@+id/Image_Sunny"
@@ -46,13 +48,14 @@
         android:layout_alignParentEnd="true"
         android:layout_alignBottom="@+id/Menu"
         android:layout_marginEnd="32dp"
-        app:tint="@color/white" />
+        app:tint="@color/white"
+        tools:ignore="ContentDescription" />
 
     <TextView
         android:id="@+id/TextView_User"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Olá Kotlin"
+        android:text="@string/ol_kotlin"
         android:textSize="20sp"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/Menu"
@@ -63,13 +66,13 @@
         android:id="@+id/TextView_Frase"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Riscos devem ser corridos, porque o maior perigo é não arriscarmos nada."
+        android:text="@string/riscos_devem_ser_corridos_porque_o_maior_perigo_n_o_arriscarmos_nada"
         android:gravity="center"
         android:textSize="15sp"
         android:layout_margin="16dp"
         android:layout_centerInParent="true"
         android:textStyle="bold"
-        />
+        tools:ignore="RelativeOverlap" />
 
     <View
         android:id="@+id/View_Linha"
@@ -88,7 +91,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="32dp"
-        android:text="Nova Frase"
+        android:text="@string/nova_frase"
         android:backgroundTint="@color/purple"
         />
     
