@@ -2,7 +2,7 @@
 # 🌟 MotivationApp
 
 O **MotivationApp** é um aplicativo Android desenvolvido em **Kotlin** que exibe frases motivacionais aleatórias.  
-Ele também permite que o usuário digite seu nome e receba uma saudação personalizada, como **"Olá, Maria"**, tornando a experiência mais interativa e inspiradora.
+Ele também permite que o usuário digite seu nome e receba uma saudação personalizada, como **"Olá, Mário"**, tornando a experiência mais interativa e inspiradora.
 
 ## 🚀 Funcionalidades
 
